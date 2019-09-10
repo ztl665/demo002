@@ -13,24 +13,30 @@
 }
 #div2>img{
 	width: 20%;
+	align-c:center;
 }
 
 #div3_top{
 	width: 100%;
+	align-items:center;
 }
 #div3_top>img{
 	width: 100%;
+	align-items:center;
 }
 
 #div3_body{
 	display: flex;
 	width: 100%;
+	align-items:center;
 }
 #div3_body>div{
 	width: 33%;
+	align-items:center;
 }
 #div3_body>div>img{
 	width: 100%;
+	align-items:center;
 }
 
 #div4 div{
@@ -42,20 +48,25 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	position: relative;
 }
 #div4_top{
 	width: 100%;
+	align-items:center;
 }
 #div4_body{
-	top: 96%;
+	top: 30%;
 	width: 92%;
 	position:absolute;
+	align-items:center;
 }
 #div4_body>div{
 	width: 25%;
+	align-items:center;
 }
 .div4_body_img{
 	width: 50%;
+	align-items:center;
 	
 }
 
@@ -67,33 +78,40 @@
 }
 #div5{
 	width: 100%;
+	position: relative;
 }
 #div5_top{
 	width: 92%;
+	align-items:center;
 }
 
 #div5_body>div{
 	border: solid white 3px;
 	width: 30%;
+	align-items:center;
 }
 	
 
 #div5_body{
-	top: 135%;
+	top: 30%;
 	position: absolute;
+	align-items:center;
 }
 .div5_body_img{
 	width: 65%;
+	align-items:center;
 }
 #div5_foot{
 	width: 100%;
 	border:0px;
-	top: 150%;
+	top: 70%;
 	position: absolute;
+	align-items:center;
 }
 #div5_foot>div{
 	border:solid 10px transparent;
 	width: 25%;
+	align-items:center;
 /*	background-color: white;*/
 }
 
@@ -105,7 +123,9 @@
 
 #div6_body{	
 	width: 92%;
+	align-items:center;
 }
 #div6_body>img{
 	border-radius: 5%;
+	align-items:center;
 }
